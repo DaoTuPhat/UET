@@ -1,0 +1,93 @@
+1. Nhập vào hai số n và m. Viết một chương trình để tính ma trận chuyển vị của một ma trận A (n hàng m cột)
+VD:
+Input: 
+	3 3
+   1 2 3
+   2 4 6
+   5 7 9
+Output:
+   1 2 5
+   2 4 7
+   3 6 9
+
+2. Nhập vào số n. Cho một ma trận A nxn. Viết một chương trình để tính một ma trận B (nxn) chuyển đổi từ A, mà các giá trị của đường chéo chính của B bằng đường chéo phụ của A, và các giá trị đường chéo phụ của B bằng đường chéo chính của A 
+Input:
+	3
+    1 2 3
+	4 5 6
+	7 8 9
+Output:
+	3 2 1
+	4 5 6
+	9 8 7
+	
+3. Cho một số n trong khoảng từ 1 tới 100000. Đọc số n và in ra cách viết bằng chữ của số đó.
+Nếu số nhập vào không nằm trong khoảng đó, in "Digit error".
+Nếu input không phải là một số, in "Not a number"
+VD: 
+Input: 1999
+Output: mot ngan chin tram chin muoi chin
+
+4. Cho phân số a/b. In ra phân số c/d sao cho c/d là phân số tối giản của a/b.
+Input: 2/4
+Output: 1/2
+
+5. Cho 2 ma trận A (m x n) và B (n x p). Nhập vào ba số m, n, p, sau đó nhập các giá trị của 2 ma trận A và B. Tính ma trận C (m x p) là tích của 2 ma trận A và B
+Input: 
+3 2 3
+1 1
+2 2
+3 3
+
+1 1 1
+2 2 2
+
+Output:
+3 3 3
+6 6 6
+9 9 9
+
+6. Yếu tố tuổi tác là một trong những yếu tố nguy cơ quan trọng ảnh hưởng tới sự tiến triển của bệnh ung thư, cũng như khả năng hồi phục của bệnh nhân sau khi phẫu thuật. Để kiểm soát yếu tố này thì hệ thống bệnh viện phân chia bệnh nhân thành từng nhóm tuổi phụ thuộc vào năm sinh của người bệnh.
+Cho một số n là số các bệnh nhân mới nhập viện. n dòng tiếp theo nhập năm sinh của n bệnh nhân. Hãy tính số bệnh nhân theo từng nhóm tuổi (biết năm nay là năm 2023). Nếu có bệnh nhân không trong độ tuổi hợp lệ thì in ra số bệnh nhân độ tuổi không hợp lệ (năm sinh trước 2023, và sau 1923).
+VD:
+Input: 
+7
+1962
+1959
+1989
+2001
+1954
+1990
+1890
+Output:
+Co 1 benh nhan trong do tuoi 21-30.
+Co 3 benh nhan trong do tuoi 61-70.
+Co 2 benh nhan trong do tuoi 31-40.
+Co 1 benh nhan trong do tuoi khong hop le.
+
+Giải thích:
+Số tuổi của các bệnh nhân:
+61 64  34  22  69  33  NA (bệnh nhân 1890 sinh trước năm 1923)
+
+
+7. Hôm nay ngày 27/11/2023 là thứ 2. Bạn Linh sinh ngày 6/6/1995 muốn biết ngày sinh của mình rơi vào thứ mấy. Các bạn hãy giúp bạn viết một chương trình để tính xem ngày sinh của một người rơi vào ngày thứ mấy trong tuần.
+Input: Nhập và ngày tháng năm sinh của một người (dạng DD/MM/YYYY).
+Output: In ra ngày đó là thứ mấy trong tuần (Monday - Sunday).
+Input: 06/06/1995
+Output: Tuesday
+Input: 24/10/1987
+Output: Saturday
+Input: 20/09/1990
+Output: Thursday
+
+8. Văn hóa Đông Á đặt tên mỗi năm âm lịch theo Thiên Can Địa Chi, Thiên Can bao gồm 10 số Giáp, Ất, Bính, Đinh, Mậu, Kỷ, Canh, Tân, Nhâm, Quý; Địa Chi bao gồm tên của 12 con giáp - Tý, Sửu, Dần, Mão, Thìn, Tỵ, Ngọ, Mùi, Thân, Dậu, Tuất, Hợi. (Xem thêm: https://vi.wikipedia.org/wiki/Can_Chi). Mỗi 60 năm thì tên năm âm lịch lại trùng nhau.
+Hãy viết chương trình tính tên âm lịch của một năm dương lịch bất kỳ được nhập vào.
+VD:
+Input: 2005
+Output: At Dau
+Input: 1987
+Output: Dinh Mao
+Input: 1994
+Ouput: Giap Tuat
+Input: 1980
+Output: Canh Than
